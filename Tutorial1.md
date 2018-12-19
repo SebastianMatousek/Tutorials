@@ -1,13 +1,46 @@
-# This is the first tutorial
+# This is a tutorial for uploading the right codes into RoboTommy
 
-## This is the first section.
+## Install PlatformIO
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla pulvinar eleifend sem. Nam quis nulla. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Proin mattis lacinia justo. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim. Duis pulvinar. Donec iaculis gravida nulla. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Integer tempor. Aliquam erat volutpat.
+    
+    
+<figure>
+    <img src="Programovani_Robota_img/Install_PlatformIO.png" alt="drawing" width="1000px"/>
+    <figcaption></figcaption>
+</figure>
 
-Aliquam erat volutpat. Sed ac dolor sit amet purus malesuada congue. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam. Vivamus ac leo pretium faucibus. Duis condimentum augue id magna semper rutrum. Curabitur vitae diam non enim vestibulum interdum. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Duis condimentum augue id magna semper rutrum. Praesent vitae arcu tempor neque lacinia pretium. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Maecenas lorem. Nullam rhoncus aliquam metus. Proin mattis lacinia justo. Phasellus et lorem id felis nonummy placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Integer in sapien. In enim a arcu imperdiet malesuada. Nam quis nulla. Pellentesque pretium lectus id turpis. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Fusce consectetuer risus a nunc. Praesent id justo in neque elementum ultrices. Donec quis nibh at felis congue commodo. Suspendisse sagittis ultrices augue. Duis risus.
+## First the calibration code for the ESP
+ 
+Go to : File (left upper corner), open folder, then go to RoboTommy, Software, and open the file  ESP8266_test_calibration 
 
-Vivamus luctus egestas leo. Phasellus et lorem id felis nonummy placerat. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Nulla est. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Nullam sit amet magna in magna gravida vehicula. Donec quis nibh at felis congue commodo. Nullam rhoncus aliquam metus.
+then connect your computer to the ESP on RoboTommy !!! MAKE SURE THAT IT IS A DATA CABLE !!!
+make sure that RoboTommy is standing on a flat surface, then
+on the blue line select: Upload - please
+wait till the upload is done,
+then look on the terminal - do not turn the robot off, until it finishes calibrating !
+once it finishes calibrating, go on to the next step
 
-Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Nam sed tellus id magna elementum tincidunt. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Maecenas aliquet accumsan leo. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Vivamus luctus egestas leo. Integer pellentesque quam vel velit. Aliquam ante. Aliquam erat volutpat. Proin mattis lacinia justo. Nulla non arcu lacinia neque faucibus fringilla. Praesent id justo in neque elementum ultrices. Curabitur bibendum justo non orci. Et harum quidem rerum facilis est et expedita distinctio.
+## The actual code for ESP
+
+Go again to : File, open folder, RoboTommy, Software, but this time select ESP8266
+upload the code to the ESP (the terminal will say SUCCESS)
+
+Congratulations! the ESP is ready to go. Now there is only the arduino left!
+
+## The ArduinoNano code
+
+Again go to : File, open folder, RoboTommy, Software, and select the file ArduinoNano
+upload the code, but beware : this time you have to upload it to the ArduinoNano (it has a different cable by the way)
+when the upload is finished, all the work here is done. Good job! :)
+
+
+
+
+
+
+
+
+
+
+
