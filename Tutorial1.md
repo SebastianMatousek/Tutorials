@@ -5,7 +5,7 @@
     
     
 <figure>
-    <img src="Programovani_Robota_img/Install_PlatformIO.png" alt="drawing" width="1000px"/>
+    <img src="Programovani_Robota_img/Install_PlatformIO.png" alt="drawing" width="500px"/>
     <figcaption></figcaption>
 </figure>
 
